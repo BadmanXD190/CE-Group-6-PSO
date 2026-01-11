@@ -4,7 +4,7 @@ import time
 import numpy as np
 import pandas as pd
 
-from src.pso.pareto_archive import ParetoArchive, dominates
+from pso.pareto_archive import ParetoArchive, dominates
 
 def sigmoid(x: np.ndarray) -> np.ndarray:
     return 1.0 / (1.0 + np.exp(-x))
