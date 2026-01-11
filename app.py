@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-from src.pso.data_loader import list_instances, load_knapsack_instance
-from src.pso.mopso_knapsack import mopso_knapsack
+from pso.data_loader import list_instances, load_knapsack_instance
+from pso.mopso_knapsack import mopso_knapsack
 
 st.set_page_config(page_title="MOPSO Knapsack", layout="wide")
 
