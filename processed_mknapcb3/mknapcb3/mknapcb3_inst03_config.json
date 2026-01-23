@@ -1,9 +1,0 @@
-{
-  "dataset": "mknapcb3",
-  "instance_id": 3,
-  "n_items": 500,
-  "capacity_w1": 63531,
-  "objective_1": "maximize value",
-  "objective_2": "minimize w2",
-  "constraint": "sum(w1) <= capacity_w1"
-}
